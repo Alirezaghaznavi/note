@@ -1,0 +1,45 @@
+name: note
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  msh_checkbox: ^2.0.1
+  time_pickerr: ^1.0.6
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  hive_generator: ^2.0.1
+  build_runner: ^2.2.0
+  flutter_launcher_icons: ^0.14.2
+  flutter_lints: ^5.0.0
+
+
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: SM
+      fonts:
+        - asset: assets/fonts/ShabnamMedium.ttf
